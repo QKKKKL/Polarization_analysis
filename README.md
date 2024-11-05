@@ -4,6 +4,7 @@ This code is adapted from original authos Géraldine Zenhäusern (gzenhaeusern)'
 The code are reorganized into Jupyter notebook format.
 
 To call polarisation function, which is where you can actually run the analysis, use:
+
 polarisation(event_name, 0, 0, 1, ptime, stime, args.arg_event_name)
 
 The three numbers each corresponds to plot function, calculate_baz_only function, and save_kde_data_only function. Please always make the first number 0, since this modified code does not work for plotting the original plot designed by gzenhaeusern. If you only want to save kde data, use the line provided above (where first and second numbers set to 0, third set to 1). If you would like to use the calculate_baz_only function from original code, set the second number to 1 and third number to 0.
