@@ -14,6 +14,8 @@ The code expects a input text file with three parts: event name, ptime in second
 
 Within polarisation function, event time information are retrieved from input traces. An actually event start time is needed. Timing of noise is set to the period of [start of event, 5 seconds before arrival of P wave]. Please modify according to your actually time frame of noise. The time from start to end of event is the actual event length read from input file, in other words, it is the exact range of data you have. I commented out the wavefrom trimming process within waveform_processing function from original code.
 
+Feel free to plot your saved kde data using the plot_kde_files.ipynb or your own.
+
 For more information, please refer to the slides attached below.
 
 [KDE_save_and_plot_quick_guide.pdf](https://github.com/user-attachments/files/17639337/KDE_save_and_plot_quick_guide.pdf)
